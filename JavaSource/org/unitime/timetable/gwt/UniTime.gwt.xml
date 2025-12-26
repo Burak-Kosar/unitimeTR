@@ -28,12 +28,10 @@
 	<inherits name="com.google.gwt.resources.Resources" />
 	<inherits name="com.google.gwt.i18n.I18N"/>
 	
-	<extend-property name="locale" values="en"/>
-	<extend-property name="locale" values="en_UK"/>
-	<extend-property name="locale" values="cs"/>
-	<extend-property name="locale" values="pl"/>
-	<extend-property name="locale" values="ar"/>
+	<extend-property name="locale" values="en,en_UK,cs,pl,ar,tr"/>
 	<set-property-fallback name="locale" value="en"/>
+
+	
 	
 	<!-- Logging -->
 	<inherits name="com.google.gwt.logging.Logging" />
